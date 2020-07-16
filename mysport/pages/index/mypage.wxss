@@ -1,0 +1,12 @@
+/* pages/index/mypage.wxss */
+.tab{width: 96%; height:200rpx; border:2rpxsolid #cccccc; margin:60rpx auto;}
+
+.tab .btns{ height: 100rpx; background: #eeeeee;display: flex;}
+
+.tab .btns view{flex: 1; text-align: center; line-height:100rpx;}
+
+.tab .btns .cur{background: #ffffff;}
+
+.tab .cons view{height: 480rpx;display: none; text-align: center; line-height:480rpx; font-size:60rpx;}
+
+.tab .cons .cur{display: block;}

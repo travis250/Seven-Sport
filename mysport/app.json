@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/index/mypage",
+    "pages/index/mine",
+    "pages/index/detail",
+    "pages/index/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "MySport",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#2f2f2f",
+    "selectedColor": "#216d8d",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/mainpage.png",
+        "selectedIconPath": "icon/select_mainpage.png"
+      },
+      {
+        "pagePath": "pages/index/mypage",
+        "text": "主页",
+        "iconPath": "icon/sort.png",
+        "selectedIconPath": "icon/select_sort.png"
+      },
+      {
+        "pagePath": "pages/index/setting",
+        "text": "我的",
+        "iconPath": "icon/mine.png",
+        "selectedIconPath": "icon/select_mine.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}

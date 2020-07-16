@@ -1,0 +1,12 @@
+<!--pages/index/detail.wxml-->
+
+<view class="container">
+<view class="btn-area">
+  <view class="body-view">
+    <text>{{text1}}</text>    <text>{{text2}}</text>    <text>{{text3}}</text>    <text>{{text4}}</text>
+    <button bindtap="getLast">上一个</button>
+    <button bindtap="getNest">下一个</button>
+  </view>
+</view>
+</view> 
+
